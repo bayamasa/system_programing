@@ -14,7 +14,7 @@ var sample = []string{
 
 func createCsv() {
 	//書き込みファイル作成
-	file, err := os.Create("/出力したいパス/sample.csv")
+	file, err := os.Create("sample.csv")
 	if err != nil {
 		log.Println(err)
 	}
