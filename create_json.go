@@ -24,7 +24,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	encoder.Encode(source)
 	writer.Flush()
 	writer.Close()
-
 }
 
 // ここにコードを書く }
