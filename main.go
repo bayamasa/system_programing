@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-	timer(5)
+	var a, b, c, d int
+	fmt.Scanf("%d", &a)
+
 }
