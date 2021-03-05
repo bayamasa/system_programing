@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func main() {
+func cards() {
 
 	var (
 		n     int
